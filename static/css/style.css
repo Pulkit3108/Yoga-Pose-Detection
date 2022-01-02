@@ -1,0 +1,142 @@
+/* BACKGROUND */
+body::after {
+    content: "";
+    background: url('/static/img/yoga2.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.all {
+    display: flex;
+    width: 85vw;
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.icon {
+    display: inline;
+    margin-right: 35vw;
+}
+
+/* IMAGE UPLOAD */
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.upload-label {
+    display: inline-block;
+    padding: 15px 36px;
+    background: #07886e;
+    color: #fff;
+    font-size: 1.2em;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.upload-label:hover {
+    background: #34495E;
+    color: #39D2B4;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.img-preview {
+    width: 256px;
+    height: 256px;
+    position: relative;
+    border: 2px solid black;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.img-preview>div {
+    width: 100%;
+    height: 100%;
+    background-size: 256px 256px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.predict {
+    margin-left: 30%;
+}
+
+.loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#result {
+    font-size: 1.3em;
+    font-weight: bolder;
+    color: white;
+}
+
+#result img {
+    display: block;
+    max-width: 78vw;
+    max-height: 78vh;
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}
+
+/* VIDEO CAPTURE */
+.videoCapture {
+    display: flex;
+    width: 85vw;
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.videoCapture img {
+    border: 1px solid black;
+}
+
+.webcam {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.webbtn {
+    display: inline-block;
+    padding: 12px 30px;
+}
