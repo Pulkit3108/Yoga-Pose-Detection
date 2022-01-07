@@ -8,7 +8,7 @@ Link to Dataset: https://www.kaggle.com/niharika41298/yoga-poses-dataset
 ## Working
 > Using Image
 
-![](https://i.imgur.com/MbrLQiK.gif)
+![](https://i.imgur.com/kmkuUQE.gif)
 > Using Video
 
 ![](https://i.imgur.com/5EFYw15.gif)
