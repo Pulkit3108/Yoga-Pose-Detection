@@ -92,7 +92,7 @@ def usingWebcam():
                         cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 1, cv2.LINE_4)
             cv2.putText(input_frame, 'Accuracy', (150, 15),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 1, cv2.LINE_4)
-            cv2.putText(input_frame, accuracy, (150, 40),
+            cv2.putText(input_frame, str(accuracy), (150, 40),
                         cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 1, cv2.LINE_4)
         ret, buffer = cv2.imencode('.jpg', input_frame)
         input_frame = buffer.tobytes()
