@@ -4,12 +4,8 @@ A Web App that is made using Flask Web Framework in Python to Detect Yoga Pose w
 
 Link to Dataset: https://www.kaggle.com/niharika41298/yoga-poses-dataset
 ## Working
-> Using Image
 
-![](https://i.imgur.com/PDsg3oT.gif)
-> Using Video
+![Picture1](https://github.com/user-attachments/assets/c16be833-8a17-4457-824f-5843ed832da9)
 
-![](https://i.imgur.com/5EFYw15.gif)
-> No Landmarks
+![Picture1](https://github.com/user-attachments/assets/28a02cdf-ad3e-4aec-be3e-b809a9b3aef9)
 
-![](https://i.imgur.com/dUnnIR8.gif)
