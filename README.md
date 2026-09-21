@@ -24,11 +24,15 @@ The web app supports two local input paths:
 - Upload a PNG or JPEG image.
 - Open `/webcam` to stream from the camera available to the Python process.
 
+## Preview
+
+![Yoga Pose Detection interface](Docs/media/demo-screenshot.png)
+
 ## Demo
 
-[![Yoga Pose Detection demo](Docs/media/demo-screenshot.png)](Docs/media/demo.mp4)
+https://github.com/user-attachments/assets/872f64ea-059f-4513-9586-5e27a499cf09
 
-Click the screenshot to open the 37-second demo video with playback controls.
+The 37-second demo video includes playback controls. The versioned source copy remains at `Docs/media/demo.mp4`.
 
 ## Quick Start
 
