@@ -1,4 +1,9 @@
-flask
-pandas
-mediapipe
-scikit-learn
+# Flask application dependencies. This is a compatibility baseline, not a
+# fully tested lockfile. The exact scikit-learn pin preserves compatibility
+# with the bundled detect_pose.pkl artifact.
+Flask>=2.0,<3.0
+mediapipe>=0.8,<0.11
+numpy>=1.19,<2.0
+opencv-python>=4.5,<5.0
+pandas>=1.2,<2.0
+scikit-learn==0.24.2
