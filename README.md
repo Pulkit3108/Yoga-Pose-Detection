@@ -32,8 +32,6 @@ The web app supports two local input paths:
 
 https://github.com/user-attachments/assets/872f64ea-059f-4513-9586-5e27a499cf09
 
-The 37-second demo video includes playback controls. The versioned source copy remains at `Docs/media/demo.mp4`.
-
 ## Quick Start
 
 The model artifact was trained with scikit-learn 0.24.2. Start with Python 3.8 for the best chance of installing that legacy dependency. The exact original environment was not recorded, so treat the setup below as a compatibility baseline rather than a certified reproduction.

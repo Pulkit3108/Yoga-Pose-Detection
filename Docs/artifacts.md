@@ -9,7 +9,7 @@ This repository includes the original course-project material alongside the Flas
 | `Machine Learning Code/` | Landmark-feature classifier training/evaluation notebook and CSV | Historical experiment source. The notebook writes the bundled pickle from its Gradient Boosting pipeline. |
 | `Deep Learning Code/` | Separate TensorFlow pose-classification experiment and saved model | Not used by `app.py`; keep its dependencies separate from the Flask app. |
 | `Web Scraper/` | Source-collection notebook and scraped pose text | Historical data-collection material; review source and license terms before reuse. |
-| `Docs/` | Original report, presentation, artifact notes, and demo media | Project documentation, not runtime dependencies. See the README for the demo preview and video. |
+| `Docs/` | Original report, presentation, artifact notes, and demo media | Project documentation, not runtime dependencies. |
 | `upload/` | Files saved by the local upload route | Runtime data. New uploads are ignored by Git and should not be published. |
 
 ## Artifact Boundaries
